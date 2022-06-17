@@ -1,0 +1,29 @@
+.transactions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.listOrder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px 0px;
+  border-bottom: 1px solid gray;
+  width: 400px;
+}
+.merchantName {
+  font-weight: bold;
+  margin: 10px 10px;
+  width: 80px;
+  text-align: center;
+}
+.image {
+  width: 40px;
+  height: auto;
+  margin: 0px 10px;
+}
+.date {
+  margin-top: 10px;
+  width: 100px;
+  text-align: center;
+}
